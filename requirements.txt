@@ -5,6 +5,7 @@ matplotlib
 scikit-learn
 catboost
 xgboost
+ipykernel
 # -e .
 
 # run pip install -r requirements.txt
