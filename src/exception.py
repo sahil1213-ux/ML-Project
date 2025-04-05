@@ -23,15 +23,15 @@ class CustomException(Exception):
         return self.error_message
     
 
-# if __name__ == "__main__":
-#     # Test the logging
-#     try:
-#         # Simulate an error
-#         1 / 0
-#     except Exception as e:
-#         logging.info("Division by zero error")
-#         # Log the error message
-#         raise CustomException(e, sys)
+if __name__ == "__main__":
+    # Test the logging
+    try:
+        # Simulate an error
+        1 / 0
+    except Exception as e:
+        logging.info("Division by zero error")
+        # Log the error message
+        raise CustomException(e, sys)
 
 # this is a custom exception class helpful to call the error message
 # and the error details
