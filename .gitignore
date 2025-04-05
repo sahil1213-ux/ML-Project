@@ -172,3 +172,7 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# personal knowledge management
+Git_Commands.txt
+Steps_to_setup.txt
