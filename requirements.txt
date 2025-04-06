@@ -7,6 +7,7 @@ catboost
 xgboost
 ipykernel
 dill
-# -e .
+flask
+# -e . # Uncomment this line if you want to install the package in editable mode
 
 # run pip install -r requirements.txt
